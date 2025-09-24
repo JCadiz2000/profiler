@@ -14,13 +14,13 @@
 <style scoped>
 .nav-box{
   display: flex;
-  padding: 0 10%;
+  padding: 0 15%;
   height: 60px;
   width: 100%;
   background-color: black;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 100;
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 24px;

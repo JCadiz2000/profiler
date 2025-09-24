@@ -1,0 +1,131 @@
+{
+  "portrait":{
+    "name": "Jayson",
+    "role": "Software Engineer",
+    "jobTasks": ["Frontend Development", "Test Automations", "Full Stack Development"]
+  },
+  "introduction":{
+    "description": "I am a Computer Science graduate from the University of San Carlos, Talamban Campus, with a strong passion for software development and a deep commitment to continuous learning. I am eager to apply my skills and knowledge in a challenging role within the software development field, where I can contribute to a dynamic and innovative team. My goal is to grow both personally and professionally by embracing opportunities to learn new technologies and expand my expertise in this fast-evolving industry. My commitment and dedication will help me succeed in any role where I can meet objectives and exceed expectations.",
+    "favorites": [
+      {
+        "logo": "/javascript.png",
+        "name": "JavaScript"
+      },
+      {
+        "logo": "/typescript.png",
+        "name": "TypeScript"
+      },
+      {
+        "logo": "/python.png",
+        "name": "Python"
+      },
+      {
+        "logo": "/java.png",
+        "name": "Java"
+      },
+      {
+        "logo": "/php.png",
+        "name": "PHP"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "/lanex.jpg",
+      "type": "Internship",
+      "date": "Sep 2021 - Mar 2022",
+      "role": "Web Developer",
+      "tasks": [
+        "Developed a robust inventory system for monitoring and managing devices"
+      ]
+    },
+    {
+      "company": "/nec.jpg",
+      "type": "Contract",
+      "date": "Sep 2021 - Mar 2022",
+      "role": "Software Engineer",
+      "tasks": [
+        "Optimized and maintained UI Path automations, reducing repetitive manual tasks and improving efficiency",
+        "Created and supported development environments for relational and non-relational databases, ensuring reliable test and production workflows",
+        "Customized and containerized MongoDB images with Docker to handle specialized business requirements",
+        "Designed and built an automation testing tool, cutting regression test execution time and improving QA efficiency and reliability"
+      ]
+    },
+    {
+      "company": "/lanex.jpg",
+      "type": "Full-time",
+      "date": "Aug 2022 - Apr 2025",
+      "role": "Software Engineer",
+      "tasks": [
+        "Built and maintained an app that tracks device software and hardware integrity",
+        "Engineered AI language model prompts to enhance chatbot accuracy and improve customer query resolution rates.",
+        "Created a reusable web application template for AI-driven chatbots, reducing development time for new projects",
+        "Built an ordering portal with full e-commerce features (cart, shipment processing, and container truck delivery visualization), streamlining logistics and improving order tracking efficiency."
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "techs": [
+        "/javascript.png",
+        "/typescript.png",
+        "/python.png",
+        "/java.png",
+        "/php.png"
+      ],
+      "type": "Languages"
+    },
+    {
+      "techs": [
+        "/vue.png",
+        "/nuxt.png",
+        "/flutterflow.jpg",
+        "/html.png",
+        "/css.png"
+      ],
+      "type": "Frontend"
+    },
+    {
+      "techs": [
+        "/laravel.png",
+        "/express.png"
+      ],
+      "type": "Backend"
+    },
+    {
+      "techs": [
+        "/docker.png",
+        "/kubernetes.png",
+        "/helm.svg",
+        "/robot.png",
+        "/ui.svg"
+      ],
+      "type": "DevOps & Tools"
+    },
+    {
+      "techs": [
+        "/postgre.png",
+        "/mysql.png",
+        "/mongodb.svg"
+      ],
+      "type": "Databases"
+    }
+  ],
+  "contacts":[
+    {
+      "logo": "/linkedin.jpg",
+      "name": "jcadizofficial",
+      "link": "https://www.linkedin.com/in/jcadizofficial/"
+    },
+    {
+      "logo": "/yahoo.png",
+      "name": "cadizjayson25@yahoo.com",
+      "link": ""
+    },
+    {
+      "logo": "/github.png",
+      "name": "JCadiz2000",
+      "link": "https://github.com/JCadiz2000"
+    }
+  ]
+}
