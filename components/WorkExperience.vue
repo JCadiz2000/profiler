@@ -19,7 +19,7 @@ const config = useRuntimeConfig()
                 <div v-for="item in i.tasks" class="item-list">{{item}}</div>
               </div>
             </div>
-            <div v-else ="(idx+1)%2 !== 0 ? '':'p-4'">{{i.date}}</div>
+            <div v-else>{{i.date}}</div>
           </div>
           <div class="experience-tree"></div>
           <div :style="{'--image': `url(${config.app.baseURL}${i.company})`}" class="experience-bubble"></div>
