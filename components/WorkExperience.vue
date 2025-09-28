@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import {experience} from '../assets/data.json'
+const config = useRuntimeConfig()
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import {experience} from '../assets/data.json'
       <div class="experience-wrapper">
         <!-- <div class="experience-tree"></div> -->
         <div v-for="(i,idx) in experience" class="experience-timeline" data-aos="fade-up" data-aos-once="true">
-          <div :class="(idx+1)%2 === 0 ? 'experience-date text-right':'experience-card'">
+          <div :class="(idx+1)%2 === 0 ? 'experience-date text-right':'experience-card'" data-aos="fade-right" data-aos-once="true" data-aos-delay="300">
             <!-- <div v-for="i in Math.ceil(Math.random()*10)" class="p-4">CONTENT HERE</div> -->
             <div v-if="(idx+1)%2 !== 0" :class="i%2 === 0 ? '':'p-4'">
               <div class="flex flex-col gap-4">
@@ -21,8 +22,8 @@ import {experience} from '../assets/data.json'
             <div v-else ="(idx+1)%2 !== 0 ? '':'p-4'">{{i.date}}</div>
           </div>
           <div class="experience-tree"></div>
-          <div :style="{'--image': `url(${i.company})`}" class="experience-bubble"></div>
-          <div :class="(idx+1)%2 !== 0 ? 'experience-date':'experience-card'">
+          <div :style="{'--image': `url(${config.app.baseURL}${i.company})`}" class="experience-bubble"></div>
+          <div :class="(idx+1)%2 !== 0 ? 'experience-date':'experience-card'" data-aos="fade-left" data-aos-once="true" data-aos-delay="300">
             <div v-if="(idx+1)%2 !== 0" :class="i%2 !== 0 ? '':'p-4'">{{i.date}}</div>
             <div v-else :class="i%2 === 0 ? '':'p-4'">
               <div class="flex flex-col gap-4">
@@ -115,7 +116,7 @@ import {experience} from '../assets/data.json'
 .experience-timeline {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 1300px;
   margin: 0 auto;
   position: relative;
   z-index: 1; /* sits above the tree line */

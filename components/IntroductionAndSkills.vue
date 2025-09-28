@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { introduction } from '../assets/data.json'
+const config = useRuntimeConfig()
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import { introduction } from '../assets/data.json'
       <p class="ias-text">{{ introduction.description }}</p>
     </div>
     <div class="flex flex-wrap p-[5%] items-center justify-center gap-32">
-      <div v-for="i in introduction.favorites" class="tech-card flex flex-col items-center gap-8" data-aos="fade-up" data-aos-once="true"><div :style="{'--image': `url(${i.logo})`}" class="tech-card-logo"></div>{{i.name}}</div>
+      <div v-for="i in introduction.favorites" class="tech-card flex flex-col items-center gap-8" data-aos="fade-up" data-aos-once="true"><div :style="{'--image': `url(${config.app.baseURL}${i.logo})`}" class="tech-card-logo"></div>{{i.name}}</div>
     </div>
   </div>
 </template>

@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import {technology} from '../assets/data.json'
+const config = useRuntimeConfig()
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import {technology} from '../assets/data.json'
       <div v-for="i in technology" data-aos="fade-up" data-aos-once="true">
         <div class="tse-card flex flex-col items-center">
           <div class="tse-card-panel flex flex-wrap items-center justify-center gap-8">
-            <div v-for="item in i.techs" :style="{'--image': `url(${item})`}" class="tech-logo"></div>
+            <div v-for="item in i.techs" :style="{'--image': `url(${config.app.baseURL}${item})`}" class="tech-logo"></div>
           </div>
           <div class="tse-card-title">{{i.type}}</div>
         </div>
