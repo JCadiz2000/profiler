@@ -12,7 +12,7 @@ const skillLevel = ['Beginner', 'Basic', 'Intermediate', 'Advanced', 'Expert']
       <div v-for="skill in skills" class="skill-card p-8 flex flex-col gap-8" data-aos="fade-up" data-aos-once="true">
         <h1 class="skill-title">{{ skill.title }}</h1>
         <div v-for="item in skill.items" class="flex items-center gap-4">
-          <div class="w-[40px] h-[40px] new-tech-logo" :style="{'--image': `url(${item.icon})`}" alt=""></div>
+          <div class="w-[40px] h-[40px] new-tech-logo" :style="{'--image': `url(${config.app.baseURL}${item.icon})`}" alt=""></div>
           <div class="flex flex-col w-[100%] gap-2">
             <div class="flex justify-between">
               <div class="skill-text">{{ item.name }}</div>
