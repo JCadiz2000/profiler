@@ -111,6 +111,144 @@
       "type": "Databases"
     }
   ],
+  "skills": [
+    {
+      "title": "Languages",
+      "items": [
+        {
+          "name": "JavaScript",
+          "icon": "/images/javascript.png",
+          "level": "5"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "/images/typescript.png",
+          "level": "5"
+        },
+        {
+          "name": "Python",
+          "icon": "/images/python.png",
+          "level": "4"
+
+        },
+        {
+          "name": "Java",
+          "icon": "/images/java.png",
+          "level": "3"
+        },
+        {
+          "name": "PHP",
+          "icon": "/images/php.png",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "title": "Frontend",
+      "items": [
+        {
+          "name": "Vue",
+          "icon": "/images/vue.png",
+          "level": "5"
+        },
+        {
+          "name": "Nuxt",
+          "icon": "/images/nuxt.png",
+          "level": "4"
+        },
+        {
+          "name": "Flutterflow",
+          "icon": "/images/flutterflow.jpg",
+          "level": "2"
+        },
+        {
+          "name": "HTML",
+          "icon": "/images/html.png",
+          "level": "4"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "title": "Backend",
+      "items":[
+        {
+          "name": "Laravel",
+          "icon": "/images/laravel.png",
+          "level": "4"
+        },
+        {
+          "name": "Express",
+          "icon": "/images/express.png",
+          "level": "4"
+        },
+        {
+          "name": "Flask",
+          "icon": "/images/flask.png",
+          "level": "2"
+        }
+      ]
+    },
+    {
+      "title": "DevOps & Tools",
+      "items":[
+        {
+          "name": "Docker",
+          "icon": "/images/docker.png",
+          "level": "2"
+        },
+        {
+          "name": "Kubernetes",
+          "icon": "/images/kubernetes.png",
+          "level": "2"
+        },
+        {
+          "name": "Helm",
+          "icon": "/images/helm.svg",
+          "level": "2"
+        },
+        {
+          "name": "Robot Framework",
+          "icon": "/images/robot.png",
+          "level": "5"
+        },
+        {
+          "name": "UI Path",
+          "icon": "/images/ui.svg",
+          "level": "2"
+        },
+        {
+          "name": "Git",
+          "icon": "/images/github.png",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "items":[
+        {
+          "name": "PostgreSQL",
+          "icon": "/images/postgre.png",
+          "level": "3"
+        },
+        {
+          "name": "MySQL",
+          "icon": "/images/mysql.png",
+          "level": "3"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "/images/mongodb.svg",
+          "level": "3"
+        }
+      ]
+    }
+  ],
   "contacts":[
     {
       "logo": "/images/linkedin.jpg",

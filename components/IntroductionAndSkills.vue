@@ -9,15 +9,15 @@ const config = useRuntimeConfig()
       <h1 class="ias-title">About Me</h1>
       <p class="ias-text">{{ introduction.description }}</p>
     </div>
-    <div class="flex flex-wrap p-[5%] items-center justify-center gap-32">
+    <!-- <div class="flex flex-wrap p-[5%] items-center justify-center gap-32">
       <div v-for="i in introduction.favorites" class="tech-card flex flex-col items-center gap-8" data-aos="fade-up" data-aos-once="true"><div :style="{'--image': `url(${config.app.baseURL}${i.logo})`}" class="tech-card-logo"></div>{{i.name}}</div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <style scoped>
 .ias-container {
-  margin: 0 15%;
+  margin: 0 10%;
 }
 .ias-title {
   font-family: "Poppins", sans-serif;
@@ -29,7 +29,7 @@ const config = useRuntimeConfig()
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #EAE2F8;
-  opacity: 0.6;
+  opacity: 1;
 }
 .tech-card{
   height: 400px;

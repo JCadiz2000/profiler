@@ -40,14 +40,14 @@ const config = useRuntimeConfig()
 
 <style scoped>
 .experience-container{
-  margin: 0 15%;
+  margin: 0 10%;
   position: relative;
 }
 .experience-text{
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #EAE2F8;
-  opacity: 0.6;
+  opacity: 1;
 }
 .experience-title{
   font-family: "Poppins", sans-serif;
@@ -110,6 +110,7 @@ const config = useRuntimeConfig()
   width: 5px;
   background-color: white;
   height: 100%; /* match the height of the wrapper */
+  border-radius: ;
   z-index: 0;
 }
 

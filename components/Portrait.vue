@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { portrait } from '../assets/data.json'
-import image from '../assets/newportrait.jpg'
+// import image from '../assets/newportrait.jpg'
+import image from '../assets/portrait.jpg'
 
 const displayText = ref('')
 const currentTextIndex = ref(0)
@@ -40,14 +41,16 @@ onMounted(() => {
 <template>
   <div class="">
     <div class="portrait-container-margin flex p-16 gap-32 items-center">
-      <div class="portrait">
-        <div :style="{'--image': `url(${image})`}" class="portrait-image"></div>
+      <div data-aos="fade-right" data-aos-once="true" data-aos-delay="100">
+        <div class="portrait">
+          <div :style="{'--image': `url(${image})`}" class="portrait-image"></div>
+        </div>
       </div>
-      <div class="portrait-greetings-container w-[50%]">
+      <div class="portrait-greetings-container w-[50%]" data-aos="fade-left" data-aos-once="true" data-aos-delay="100">
         <div class="portrait-greetings">Hi, I'm <span class="portrait-greetings-name">Jayson</span></div>
         <!-- <div class="portrait-greetings-title"> {{portrait.role}} </div> -->
-        <div class="portrait-greetings-jobs"> I do</div>
-        <div class="portrait-greetings-jobs-list">{{displayText}}<span class="blinking-cursor">|</span></div>
+        <div class="portrait-greetings-jobs"> I'm a <span class="portrait-greetings-name">Software Engineer</span> from the Philippines and I do...</div>
+        <div class="portrait-greetings-jobs-list">{{displayText}}<span class="blinking-cursor portrait-greetings-jobs-list">|</span></div>
       </div> 
     </div>
   </div>
@@ -99,6 +102,7 @@ onMounted(() => {
   background-color: transparent;
   overflow: hidden;
   transform: skew(10deg);
+  box-shadow: 0 12px 48px rgba(234, 226, 248, 1);
   /* position: absolute;
   top: 50px;
   left: 50px; */
@@ -123,7 +127,7 @@ onMounted(() => {
   margin-top: 20px;
   color: #EAE2F8;
   font-family: "Poppins", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
   position: relative;
   font-size: 32px;
@@ -136,10 +140,10 @@ onMounted(() => {
   font-weight: 900;
   font-style: normal;
   position: relative;
-  font-size: 64px;
+  font-size: 48px;
 }
 .portrait-greetings-container{
-  border-right: solid #EAE2F8 5px;
+  /* border-right: solid #EAE2F8 5px; */
   border-radius: 10px;
   /* position: absolute;
   top: 100px;

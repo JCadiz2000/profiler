@@ -17,7 +17,7 @@ const config = useRuntimeConfig()
 
 <style scoped>
 .contacts-container{
-  margin: 0 15%;
+  margin: 0 10%;
   position: relative;
   color: #EAE2F8;
 }
@@ -31,7 +31,7 @@ const config = useRuntimeConfig()
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #EAE2F8;
-  opacity: 0.6;
+  opacity: 1;
 }
 .contact-card{
   width: 300px;
