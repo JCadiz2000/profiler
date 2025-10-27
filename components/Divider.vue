@@ -37,7 +37,7 @@ const shape = ref(Math.floor(Math.random()*3)+1)
 }
 
 .line{
-  width: 100%;
+  width: 200px;
   height: 2px;
   background-color: #EAE2F8;
   border-radius: 5px;
@@ -54,7 +54,7 @@ const shape = ref(Math.floor(Math.random()*3)+1)
 
 /* SHAPES */
 .shape-star{
-  width: 100px;  
+  width: 50px;  
   aspect-ratio: 1;
   clip-path: polygon(50% 0,
     calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
@@ -70,13 +70,13 @@ const shape = ref(Math.floor(Math.random()*3)+1)
 
 /* HTML: <div class="spiral"></div> */
 .shape-starburst{
-  width: 100px; /* adjust to control the size */
+  width: 50px; /* adjust to control the size */
   aspect-ratio: 1;
   clip-path: polygon(100% 50%,22.28% 38.52%,85.36% 85.36%,38.52% 22.28%,50% 100%,61.48% 22.28%,14.64% 85.36%,77.72% 38.52%,0% 50%,77.72% 61.48%,14.64% 14.64%,61.48% 77.72%,50% 0%,38.52% 77.72%,85.36% 14.64%,22.28% 61.48%);
   animation: spin 16s infinite linear;
 }
 .shape-yin-yang{
-  height: 100px;
+  height: 50px;
   aspect-ratio: 1;
   border-radius: 50%;
   background: 

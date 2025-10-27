@@ -20,6 +20,7 @@ function scrollToSection(sectionId: string) {
       <div @click="scrollToSection('ias')" class="nav-btn">About</div>
       <div @click="scrollToSection('we')" class="nav-btn">Experience</div>
       <div @click="scrollToSection('tse')" class="nav-btn">Skills</div>
+      <div @click="scrollToSection('pc')" class="nav-btn">Projects</div>
       <div @click="scrollToSection('cl')" class="nav-btn">Contact</div>
     </div>
     <div @click="scrollToSection('port')" class="flex items-center gap-2 nav-btn">

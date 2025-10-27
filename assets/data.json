@@ -249,6 +249,27 @@
       ]
     }
   ],
+  "projects":[
+    {
+      "title": "Ordering Portal System",
+      "description": "Built an ordering platform featuring separate interfaces for administrators and customers. The system includes features such as product management, add to cart, wishlists, and order processing for customers and customer management, order management, and shipment processing for administrators.",
+      "images": [
+        "/images/projects/ordering_portal_1.png",
+        "/images/projects/ordering_portal_2.png",
+        "/images/projects/ordering_portal_3.png",
+        "/images/projects/ordering_portal_4.png",
+        "/images/projects/ordering_portal_5.png",
+        "/images/projects/ordering_portal_6.png",
+        "/images/projects/ordering_portal_7.png",
+        "/images/projects/ordering_portal_8.png",
+        "/images/projects/ordering_portal_9.png",
+        "/images/projects/ordering_portal_10.png",
+        "/images/projects/ordering_portal_11.png",
+        "/images/projects/ordering_portal_12.png"
+      ],
+      "currentIdx": 0
+    }
+  ],
   "contacts":[
     {
       "logo": "/images/linkedin.jpg",

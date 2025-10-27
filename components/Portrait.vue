@@ -33,6 +33,9 @@ const type = () => {
   setTimeout(type, timeout)
 }
 
+function downloadPDF(){
+  
+}
 onMounted(() => {
   type()
 })
@@ -51,6 +54,9 @@ onMounted(() => {
         <!-- <div class="portrait-greetings-title"> {{portrait.role}} </div> -->
         <div class="portrait-greetings-jobs"> I'm a <span class="portrait-greetings-name">Software Engineer</span> from the Philippines and I do...</div>
         <div class="portrait-greetings-jobs-list">{{displayText}}<span class="blinking-cursor portrait-greetings-jobs-list">|</span></div>
+        <a href="/files/Jayson_Cadiz_Resume_OCT_2025.pdf" download class="w-[50px] h-[50px] bg-[#724BB7] rounded-full flex items-center justify-center cursor-pointer mt-4 hover:bg-[#A081D9] transition duration-200 ease">
+          <img class="w-[30px] h-[30px]" src="/images/paper.png" alt="">
+        </a>
       </div> 
     </div>
   </div>

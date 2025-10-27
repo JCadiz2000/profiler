@@ -23,6 +23,8 @@ import data from '../assets/data.json'
       <Divider data-aos="fade-up" data-aos-once="true"/>
       <TechSkillExperience id="tse"/>
       <Divider data-aos="fade-up" data-aos-once="true"/>
+      <ProjectCarousel id="pc"/>
+      <Divider data-aos="fade-up" data-aos-once="true"/>
       <ContactLinks id="cl"/>
     </div>
   </ClientOnly>

@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   modules: ['@nuxtjs/tailwindcss', '@nuxt/icon'],
   devtools: { enabled: false },
+  css:['~/assets/css/main.css'],
   app: {
     baseURL: '/profiler/',
     head: {
